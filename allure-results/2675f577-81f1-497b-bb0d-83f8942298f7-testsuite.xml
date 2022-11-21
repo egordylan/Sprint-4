@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669048802286' stop='1669048804030'>
+    <name>Custom command: Shoping card flow behalf of login user</name>
+    <title>Custom command: Shoping card flow behalf of login user</title>
+    <test-cases>
+        <test-case start='1669048802286' status='passed' stop='1669048803985'>
+            <name>"before all" hook for Custom command: Shoping card flow behalf of login user</name>
+            <title>"before all" hook for Custom command: Shoping card flow behalf of login user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

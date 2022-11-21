@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669050015717' stop='1669050020736'>
+    <name>Custom command: Shoping card flow behalf of login user</name>
+    <title>Custom command: Shoping card flow behalf of login user</title>
+    <test-cases>
+        <test-case start='1669050015717' status='passed' stop='1669050020443'>
+            <name>"before all" hook for Custom command: Shoping card flow behalf of login user</name>
+            <title>"before all" hook for Custom command: Shoping card flow behalf of login user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-106.0.1370.37'/>
+            </parameters>
+            <steps>
+                <step start='1669050015718' status='passed' stop='1669050015997'>
+                    <name>POST /session/:sessionId/window/current/maximize</name>
+                    <title>POST /session/:sessionId/window/current/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='716d4bd7-9ed2-49d2-93b7-3e886182abdf-attachment.json' type='application/json' size='268'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669050015997' status='passed' stop='1669050020442'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e94426d0-78e3-4f3a-a29e-6463241742a9-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

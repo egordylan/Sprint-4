@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669039160043' stop='1669039160326'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1669039160043' status='broken' stop='1669039160193'>
+            <name>should not log in with invalid credentials</name>
+            <title>should not log in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669039160044' status='broken' stop='1669039160193'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1669039160046' status='passed' stop='1669039160192'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c3f0224c-da33-48cf-95bd-ccad404fae45-attachment.json' type='application/json' size='71'/>
+                                <attachment title='Screenshot' source='6819983a-b897-403e-9420-35e60ecc9b57-attachment.png' type='image/png' size='96006'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='c3c5d903-0d60-4f6a-8147-cd84b5cfff4a-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>this.loginOrRegister.click is not a function</message>
+                <stack-trace>TypeError: this.loginOrRegister.click is not a function
+                    at Login.openLogin (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\test\pageobjects\login.po.js:28:36)
+                    at Context.&lt;anonymous> (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\test\specs\login.js:8:21)
+                    at Context.executeAsync (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669039160199' status='broken' stop='1669039160325'>
+            <name>should log in with valid credentials</name>
+            <title>should log in with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669039160199' status='broken' stop='1669039160325'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1669039160201' status='passed' stop='1669039160325'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='eb6b9fc7-9297-4694-96a5-9ed87d528773-attachment.json' type='application/json' size='71'/>
+                                <attachment title='Screenshot' source='e39688cf-ce61-4c25-a0fd-2de52df59765-attachment.png' type='image/png' size='98213'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.loginOrRegister.click is not a function</message>
+                <stack-trace>TypeError: this.loginOrRegister.click is not a function
+                    at Login.openLogin (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\test\pageobjects\login.po.js:28:36)
+                    at Context.&lt;anonymous> (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\test\specs\login.js:22:21)
+                    at Context.executeAsync (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\apetrash\Documents\AQA_JS\Sprint-4\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

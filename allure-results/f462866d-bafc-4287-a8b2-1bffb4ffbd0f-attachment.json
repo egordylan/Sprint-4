@@ -1,0 +1,9 @@
+{
+  "script": "return ((element) => {\r\n                element.style.setProperty('opacity', 0)\r\n            }).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "eba67105-c04d-4339-a3d2-90ec11008599",
+      "ELEMENT": "eba67105-c04d-4339-a3d2-90ec11008599"
+    }
+  ]
+}

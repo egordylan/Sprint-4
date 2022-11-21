@@ -1,8 +1,0 @@
-{
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sliderr\"}\n  (Session info: MicrosoftEdge=106.0.1370.37)\n  (Driver info: msedgedriver=106.0.1370.37 (7c71c663052f26f71795f87518a2493c217bf2b4),platform=Windows NT 10.0.17134 x86_64)",
-  "sessionId": "f04eba0679b5e4cba0d6dfd08fa4aa7c1f662bcc",
-  "capabilities": {
-    "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sliderr\"}\n  (Session info: MicrosoftEdge=106.0.1370.37)\n  (Driver info: msedgedriver=106.0.1370.37 (7c71c663052f26f71795f87518a2493c217bf2b4),platform=Windows NT 10.0.17134 x86_64)",
-    "sessionId": "f04eba0679b5e4cba0d6dfd08fa4aa7c1f662bcc"
-  }
-}
